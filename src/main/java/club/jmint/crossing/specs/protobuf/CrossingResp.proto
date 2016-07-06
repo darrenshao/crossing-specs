@@ -1,0 +1,9 @@
+package protobuf;
+option java_package="club.jmint.crossing.specs.protobuf";
+option java_outer_classname="CrossingRespProto";
+
+message CrossingResp{
+	required int64 seqId = 1;
+	required string interfaceName = 2;
+	required string params = 3;
+}
